@@ -1,0 +1,80 @@
+.container, .container-fluid {
+  background: RGB(10, 10, 10, 0.98);
+}
+
+.row {
+  margin-bottom: 20px;
+
+
+}
+
+main{
+  background-size: 100%;
+  font-size: 30px;
+  padding: 10px 0;
+  text-align: center;
+  background-image: url(money.jpg);
+  position: relative;
+  font-family:serif;
+}
+
+p{
+  padding: 20px;
+  font-style: italic;
+  font-size: 1.5em;
+  color: black;
+
+}
+
+h1{
+  text-align: left;
+  color: white;
+  position: relative;
+  font-family: serif;
+
+
+}
+
+h2{
+  text-align: right;
+  color: white;
+  position: relative;
+  font-family: serif;
+}
+
+#login, #cadastrar{
+  font-size: 1em;
+  width: 300px;
+  height: 60px;
+  background: RGB(47,79,79,0.9);
+  color: white;
+  border-radius: 12px;
+  margin: 50px;
+  display: inline;
+
+}
+
+@media screen and (max-width: 1920px) {
+  main {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  main {
+    background-color: grey;
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  main {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  main {
+    height: 40vh;
+  }
+}
